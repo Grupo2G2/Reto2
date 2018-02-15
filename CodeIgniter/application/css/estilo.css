@@ -1,0 +1,40 @@
+body{
+	background-color: #D7EEF2;
+}
+.titulo{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5%;
+}
+.inititulo{
+	color: #35404F;
+}
+.login{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 10%;
+	background-color: #35404F;
+	padding: 1.5em;
+	border: 4px solid;
+	border-color: #94D9E4;
+}
+.login label{
+	color: #D7EEF2;
+}
+.loginusuario{
+	margin-top: 8px;
+}
+#userlogin{
+	margin-left: 50px;
+}
+#passlogin{
+	margin-left: 20px;
+}
+.logincontraseña{
+	margin-top: 15px;
+}
+#Conectar{
+	margin-top: 20px;
+	margin-left: 40%;
+}

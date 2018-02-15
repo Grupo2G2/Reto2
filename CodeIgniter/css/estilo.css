@@ -1,0 +1,283 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #e3e3e3;
+}
+.login{
+	position: absolute;
+	top:50%;
+	width:400px;
+	margin-left:-200px;
+	height:300px;
+	margin-top:-150px;
+	border:1px solid #808080;
+	padding:5px;
+}
+
+header{
+	background-color: #35404f;
+	display: inline-flex;
+	width: 100%;
+    margin-bottom: 10%;
+}
+
+nav{
+	display: inline-flex;
+	width: 100%;
+}
+
+nav img{
+margin-right: 1%;
+height: 60px;
+}
+
+nav ul{
+    list-style: none;
+    width: 80%;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+
+nav ul li{
+    padding: 1em;
+    border:0.2em solid #35404f;
+    background: #9cd0dc;
+    display: inline-flex;
+    color: white;
+}
+
+
+nav ul li:hover, #foco{
+background:   #6f9199 ;
+}
+
+nav ul #vacio{
+	background-color: #35404f;
+}
+
+
+nav h1{
+	width: 18%;
+	margin-top: 0.5em;
+	color: #9cd0dc;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    color:#35404f ;
+    font-weight: bold;
+    margin-left: 2%;
+    border:2px solid #35404f;
+    padding: 5px;
+}
+
+input[type=submit]:hover{
+    box-shadow:7px 7px 10px #35404f;
+    background-color: #35404f;
+    color: #9cd0dc;
+}
+
+/*  evaluar_individual.php, no me funciona con el ID */
+#h1tit{
+    color:#35404f ;
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 2%;
+}
+
+.divfiltro{
+    margin-bottom: 10%;
+    margin-right: 30%;
+    margin-left: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border:3px solid #35404f;
+    color:#35404f ;
+    background-color: #9cd0dc;   
+    font-weight: bold;
+    text-align: center; 
+}
+
+
+.divfiltronuevo {
+    margin-top: 4%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+    margin-left: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border:3px solid #35404f;
+    color:#35404f ;
+    background-color: #9cd0dc;   
+    font-weight: bold;
+    text-align: center; 
+}
+
+.datosact{
+    margin-top: -7%;
+    color:#35404f ;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.divbotones{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 35%;
+    margin-left: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border:3px solid #35404f;
+    color:#35404f ;
+    background-color: #9cd0dc;   
+    font-weight: bold;
+    text-align: center; 
+}
+
+.divfiltro h1{
+    margin-bottom: 5%;
+}
+
+.divfiltronuevo h1{
+    margin-bottom: 5%;
+}
+
+.divselect {
+    margin-bottom: 5%;
+}
+
+.boton {
+    font-size: 20px;
+    color:#35404f ;
+    font-weight: bold;
+    margin-left: 2%;
+    border:2px solid #35404f;
+    padding: 5px;
+}
+
+.boton:hover{
+    box-shadow:7px 7px 10px #35404f;
+    background-color: #35404f;
+    color: #9cd0dc;
+}
+
+
+#tabla_evaluar #columnagrande{
+    width: 78%;
+}
+
+#tabla_evaluar .descripcion{
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+
+.tablausumod{
+    margin-left: 0%;
+}
+
+.tablaretomod{
+    margin-left: 6%;
+}
+
+.tablaretomodeditar{
+    margin-left: 4%;
+    width: 95%;
+}
+
+
+    
+table {
+    margin-left: 20%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid #35404f;
+    color:#35404f ;
+    font-weight: bold;
+
+}
+
+td, th{
+    width: 150px;
+    height: 30px;
+}
+
+table th{
+    background-color: #35404f;
+    color: #9cd0dc;
+}
+
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
+tr:nth-child(even) {background-color: #9cd0dc;}
+
+
+table button{
+    width: 75px;
+}
+
+
+#logo{
+	margin-right: 13%;
+}
+
+
+.tablaoculta{
+    display: none;
+}
+
+#tablarubricas{
+    width: 95%;
+    margin-left: 30px;
+}
+footer {
+    padding: 50px 0 20px 0;
+    background-color: #35404f;
+    color: #878c94;
+    margin-top: 11.5em;
+    display: block;
+}
+footer h4{
+    text-align: left;
+    color:white;
+    font-size:25px;
+    }
+
+
+footer .redes-sociales a{
+    display:inline-block;
+    color:white;
+    font-size:25px;
+    padding:5px;
+}
+
+
+footer ul{
+    margin:0px;
+    padding:0px;
+    list-style-type:none
+}
+
+footer li a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+    
